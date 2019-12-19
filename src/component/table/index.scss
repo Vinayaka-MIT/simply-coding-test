@@ -1,0 +1,23 @@
+@import '../../styles/common/bootstrap';
+
+.column {
+  display: flex;
+}
+
+.column-name {
+  padding: 8px;
+}
+
+.pagination {
+  display: flex;
+  float: right;
+  cursor: pointer;
+
+  .back {
+    padding-right: 4px;
+  }
+}
+
+.selectable {
+  cursor: pointer;
+}
